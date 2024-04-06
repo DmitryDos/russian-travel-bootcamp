@@ -1,12 +1,14 @@
 .intro {
     position: relative;
-    width: 984px;
+    max-width: 984px;
+    width: 100%;
     margin: 92px 0 0 0;
+    padding: 0;
 }
 
 @media (max-width: 1080px) {
     .intro {
-        width: 928px;
+        max-width: 928px;
     }
 }
 
@@ -19,7 +21,6 @@
 
 @media (max-width: 720px) {
     .intro {
-        width: 100%;
         margin: 64px 0 0 0;
     }
 }

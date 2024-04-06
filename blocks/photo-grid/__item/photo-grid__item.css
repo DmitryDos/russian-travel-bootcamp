@@ -1,21 +1,22 @@
-.gallery__item {
+.photo-grid__item {
     width: 284px;
+    max-height: 213px;
 }
 
 @media (max-width: 1200px) {
-    .gallery__item {
+    .photo-grid__item {
         width: 300px;
     }
 }
 
 @media (max-width: 928px) {
-    .gallery__item {
+    .photo-grid__item {
         width: calc(50% - 8px);
     }
 }
 
 @media (max-width: 420px) {
-    .gallery__item {
+    .photo-grid__item {
         width: 100%;
     }
 }

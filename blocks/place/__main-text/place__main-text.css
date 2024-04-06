@@ -18,7 +18,7 @@
 
 @media (max-width: 720px) {
     .place__main-text {
-        width: 100%;
+        width: calc(100% - 32px);
         flex-direction: column;
         margin: 32px 0 0 0;
     }

@@ -24,8 +24,8 @@
 
 @media (max-width: 720px) {
     .place__image {
+        max-width: 440px;
         width: 100%;
         height: auto;
-        max-width: 440px;
     }
 }

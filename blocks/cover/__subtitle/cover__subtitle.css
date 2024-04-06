@@ -5,8 +5,8 @@
     color: var(--color_text-main);
     line-height: 22px;
     font-size: 18px;
-    font-weight: var(--font_weight-normal);
-    font-family: Inter, sans-serif;
+    font-family: InterRegular, sans-serif;
+    text-decoration: none;
     margin: 32px 0 0 0;
     pointer-events: none;
 }

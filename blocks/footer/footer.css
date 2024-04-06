@@ -1,7 +1,6 @@
 .footer {
     position: relative;
     width: calc(100% - 96px);
-    height: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +18,6 @@
 @media (max-width: 720px) {
     .footer {
         width: calc(100% - 32px);
-        height: auto;
         margin: 64px 0 0 0;
         flex-direction: column;
         align-items: flex-start;
