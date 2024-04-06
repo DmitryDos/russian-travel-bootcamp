@@ -1,4 +1,4 @@
-.footer___copyright {
+.footer__copyright {
     text-align: right;
     color: var(--color_text-main);
     line-height: 16px;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 720px) {
-    .footer___copyright {
+    .footer__copyright {
         margin: 48px 0 0 0;
     }
 }
