@@ -1,0 +1,19 @@
+.header__lang-link {
+    width: 29px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: var(--font_weight-normal);
+    font-family: Inter, sans-serif;
+    color: var(--color_text-main);
+    text-decoration: none;
+}
+
+@media (max-width: 720px) {
+    .header__lang-link {
+        width: 22px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+}

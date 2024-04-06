@@ -1,0 +1,16 @@
+.footer__row-list {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 720px) {
+    .footer__row-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
