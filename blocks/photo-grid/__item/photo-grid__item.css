@@ -12,6 +12,7 @@
 @media (max-width: 928px) {
     .photo-grid__item {
         width: calc(50% - 8px);
+        max-height: 315px;
     }
 }
 
